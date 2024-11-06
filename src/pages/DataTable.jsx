@@ -7,10 +7,10 @@ function DataTable({ dataList, onDelete, showActions = true }) {
         <table className="w-3/4 sm:w-2/3 lg:w-1/2 table-auto border-collapse border border-gray-300 shadow-lg rounded-lg">
           <thead>
             <tr>
-              <th className="border border-gray-300 px-4 py-2">Name</th>
-              <th className="border border-gray-300 px-4 py-2">Last Name</th>
-              <th className="border border-gray-300 px-4 py-2">Position</th>
-              {showActions && <th className="border border-gray-300 px-4 py-2">Action</th>}
+              <th className="border border-blue-700 px-4 py-2 bg-gray-200">Name</th>
+              <th className="border border-blue-700 px-4 py-2 bg-gray-200">Last Name</th>
+              <th className="border border-blue-700 px-4 py-2 bg-gray-200">Position</th>
+              {showActions && <th className="border border-blue-700 px-4 py-2 bg-gray-200">Action</th>}
             </tr>
           </thead>
           <tbody>

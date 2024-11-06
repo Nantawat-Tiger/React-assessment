@@ -30,7 +30,7 @@ function DataForm({ onAddData }) {
 
   return (
     <div className="flex justify-center item-center">
-    <form onSubmit={handleSubmit} className="p-4 bg-white shadow-md rounded-lg">
+    <form onSubmit={handleSubmit} className="p-4 bg-white shadow-md rounded-lg ">
       <div className="flex space-x-4 items-center"> 
         <div >
           
@@ -40,7 +40,7 @@ function DataForm({ onAddData }) {
             value={formData.firstName}
             onChange={handleChange}
             placeholder="Name" 
-            className="mt-1 p-2 border rounded-md w-full"
+            className="mt-1 p-2 border rounded-md w-full border-blue-300"
           />
         </div>
 
@@ -53,7 +53,7 @@ function DataForm({ onAddData }) {
             value={formData.lastName}
             onChange={handleChange}
             placeholder="LastName" 
-            className="mt-1 p-2 border rounded-md w-full"
+            className="mt-1 p-2 border rounded-md w-full border-blue-300"
           />
         </div>
 
@@ -66,10 +66,10 @@ function DataForm({ onAddData }) {
             value={formData.position}
             onChange={handleChange}
             placeholder="Position" 
-            className="mt-1 p-2 border rounded-md w-full"
+            className="mt-1 p-2 border rounded-md w-full border-blue-300"
           />
         </div>
-        <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-md">
+        <button type="submit" className="px-4 py-2 bg-green-500 text-white rounded-md font-bold text-xl">
           Submit
         </button>
 

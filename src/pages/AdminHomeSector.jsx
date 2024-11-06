@@ -13,7 +13,7 @@ function AdminHomeSector({ dataList, onAddData, onDelete, onDeleteAll }) {
         <footer className="text-center mt-8">
         <button 
           onClick={onDeleteAll} 
-          className="bg-gray-200 text-black py-2 px-6 rounded-md"
+          className="bg-red-500 text-white py-2 px-6 rounded-md text-xl font-bold"
         >
           Delete All
         </button>
